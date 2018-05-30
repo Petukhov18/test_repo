@@ -10,10 +10,6 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     try:
-<<<<<<< HEAD
         print(args.numerator / args.divisor,'12345')
-=======
-       
->>>>>>> 8028bce2560baba0b8284ff79a0a84d7119dd1ee
     except:
         raise io.RumTimeError
